@@ -1,0 +1,14 @@
+{
+  "name": "burbujas",
+  "displayName": "Burbujas",
+  "description": "Draws your prompts in the transcript as right-aligned chat bubbles with a background color. Works on top of Glass.",
+  "version": "0.1.0",
+  "author": { "name": "juancision1" },
+  "repository": "https://github.com/29juanjo88/claude-code-bubbles-chat",
+  "license": "MIT",
+  "keywords": ["claude-code", "mod", "ui", "chat", "bubbles"],
+  "userConfig": {
+    "background": { "type": "string", "title": "Bubble background", "description": "Background color of your prompt bubbles", "default": "#3d5f86" },
+    "textColor": { "type": "string", "title": "Bubble text color", "description": "Text color inside your prompt bubbles", "default": "#ffffff" }
+  }
+}
