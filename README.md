@@ -16,3 +16,9 @@ Options (userConfig): `background` (default `#3d5f86`), `textColor` (default `#f
 claude plugin validate .
 CLAUDE_CODE_ENABLE_FUNCTION_HOOKS=1 claude plugin test .
 ```
+
+## Install from the marketplace
+```
+/plugin marketplace add 29juanjo88/claude-code-bubbles-chat
+/plugin install bubbles@bubbles
+```

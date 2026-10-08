@@ -1,0 +1,19 @@
+{
+  "name": "bubbles",
+  "description": "Right-aligned chat bubbles for your prompts in Claude Code's terminal.",
+  "owner": { "name": "29juanjo88", "url": "https://github.com/29juanjo88" },
+  "plugins": [
+    {
+      "name": "bubbles",
+      "source": "./",
+      "displayName": "Bubbles",
+      "description": "Draws your prompts in the transcript as right-aligned chat bubbles with a background color. Works on top of Glass.",
+      "version": "0.1.0",
+      "homepage": "https://github.com/29juanjo88/claude-code-bubbles-chat",
+      "repository": "https://github.com/29juanjo88/claude-code-bubbles-chat",
+      "license": "MIT",
+      "keywords": ["claude-code", "mod", "ui", "chat", "bubbles"],
+      "category": "productivity"
+    }
+  ]
+}
