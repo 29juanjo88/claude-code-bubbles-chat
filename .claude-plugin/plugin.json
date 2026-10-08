@@ -1,6 +1,6 @@
 {
-  "name": "burbujas",
-  "displayName": "Burbujas",
+  "name": "bubbles",
+  "displayName": "Bubbles",
   "description": "Draws your prompts in the transcript as right-aligned chat bubbles with a background color. Works on top of Glass.",
   "version": "0.1.0",
   "author": { "name": "juancision1" },

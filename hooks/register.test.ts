@@ -43,12 +43,12 @@ const isBubble = (n: RenderElement) => {
 
 test('with Glass beneath: header and Claude rows kept, body becomes the right-aligned bubble', async () => {
   const h = handler()
-  const out = await h($, event('hola mundo'), async () => glassTree('hola mundo'))
+  const out = await h($, event('hello world'), async () => glassTree('hello world'))
   const rows = kids(out)
   expect(rows.length).toBe(3)
   expect(flatText(rows[0])).toContain('◆ You')
   expect(isBubble(rows[1])).toBe(true)
-  expect(flatText(rows[1])).toBe('hola mundo')
+  expect(flatText(rows[1])).toBe('hello world')
   expect(flatText(rows[2])).toContain('◉ Claude')
   // width: longest line + 2, at least 20
   expect((kids(rows[1])[0] as unknown as { props: { width: number } }).props.width).toBe(20)

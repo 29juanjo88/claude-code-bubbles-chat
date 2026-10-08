@@ -1,4 +1,4 @@
-# burbujas
+# bubbles
 
 Claude Code plugin (hooks mod) that draws your prompts as right-aligned chat bubbles. Works on top of Glass.
 
