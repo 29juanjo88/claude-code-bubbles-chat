@@ -3,6 +3,8 @@
 Claude Code plugin (hooks mod) that draws your prompts as right-aligned chat bubbles. Works on top of Glass.
 
 ## Install
+Module hooks are early access: Claude Code must run with `CLAUDE_CODE_ENABLE_FUNCTION_HOOKS=1` (add it to the `env` block of `~/.claude/settings.json`) or the plugin loads but never draws.
+
 Add to `~/.claude/settings.json`:
 
 ```json
